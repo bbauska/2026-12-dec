@@ -1,2 +1,1 @@
-# 2026-dec
-Calendar for December, 2026.
+# 2026-dec.bauska.org
