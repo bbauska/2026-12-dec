@@ -1,0 +1,124 @@
+<!-- css/styles.css for 2026-dec.bauska.org -->
+body {
+  font-family: Helvetica, Bahnschrift, "Lucida Console", "Courier New", monospace;
+}
+table {
+  table-layout:fixed;
+  width:70%; 
+}
+.month-header {
+  background-image:url("https://2026-dec.bauska.org/images/mst3k-chicken-600.png");
+  background-position:center center;
+  background-repeat:no-repeat;
+  background-size:cover;
+  height:300px;
+  text-align:right;
+}
+
+h1 {
+  color:#FFF;
+  font-size:200%;
+  font-weight:700;
+  letter-spacing:3px;
+  padding-right:50px;
+  padding-top:150px;
+  text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px #000;
+  vertical-align:top;
+}
+/* padding-bottom:150px; */
+.copyright-notice {
+  color:#fff;
+  font-size:50%;
+  padding-right:50px;
+  text-align:right;
+  text-decoration:none;
+  vertical-align:bottom;
+}
+
+.weekday-header {
+  background-color:#999;  /* dark gray */
+  border-color:#ddd;  /* very light gray */
+  border-style:solid;
+  letter-spacing:1px;
+  line-height:25px;
+}
+.week {
+  background-color:#ffff00;  /* eaeaea = very light gray */
+  height:75px;
+  margin:0;
+  text-align:left;
+  vertical-align:top;
+}
+
+.off-day {
+  background-color:#ddd;  /* very light gray */
+}
+
+ul {
+  font-size:75%;
+  list-style:none;
+  padding-left:20px;
+  padding-right:5px;
+}
+
+.event {
+  border-radius:5px;
+  color:#10171c;  /* very dark (mostly black) blue */
+  padding:5px;
+  margin:5px 0;
+}
+
+.cyber-monday {
+  background-color:#e8e193;  /* very soft yellow */
+}
+.giving-tuesday {
+  background-color:#c2e7e7;  /* light grayish cyan */
+}
+.natl-cookie {
+  background-color:#ff8080;  /* very light red */
+}
+.world-volunteer {
+  background-color:#ff9933;  /* vivid orange */
+}
+.natl-donut {
+  background-color:#ff80bf;  /* very light pink */
+}
+.pearl-harbor {
+  background-color:#cde6ff;  /* very pale blue */
+}
+.human-rights {
+  background-color:#ff9a9a;  /* light red */
+}
+.intl-mountain {
+  background-color:#e6cdff;  /* very pale violet */
+}
+.natl-cocoa {
+  background-color:#ff8c1a;  /* vivid orange */
+}
+.bill-of-rights {
+  background-color:#ffb21a;  /* vivid orange */
+}
+.natl-maple-syrup {
+  background-color:#ffb4f4;  /* pale red (pink tone) */
+}
+.super-saturday {
+  background-color:#9ab3ff;  /* pale blue */
+}
+.start-winter {
+  background-color:#ceceff;  /* very pale blue, was; 98fb98 - very soft lime green */
+  font-family: Bahnschrift, "Lucida Console", "Courier New", monospace, Helvetica;
+  font-size:110%;
+}
+.xmas {
+  background-color:#ff4d4d;  /* light red, was; a6f4ff - pale cyan */
+  font-family: Bahnschrift, "Lucida Console", "Courier New", monospace, Helvetica;
+  font-size:110%;
+}
+.boxing {
+  background-color:#ffc0cb;  /* very pale red (pink) */
+}
+.new-years-eve {
+  background-color:#9aff9a;  /* pale lime green */
+  font-family: Bahnschrift, "Lucida Console", "Courier New", monospace, Helvetica;
+  font-size:110%;
+}
