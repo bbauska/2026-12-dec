@@ -1,6 +1,7 @@
 <!-- css/styles.css for 2026-dec.bauska.org -->
+<!-- was: font-family:'Bradley Hand', cursive, 'OCR A Std', monospace, Helvetica; -->
 body {
-  font-family: Helvetica, Bahnschrift, "Lucida Console", "Courier New", monospace;
+  font-family:Helvetica, 'Bradley Hand'; cursive, 'OCR A Std', monospace;
 }
 table {
   table-layout:fixed;
@@ -43,13 +44,12 @@ h1 {
   line-height:25px;
 }
 .week {
-  background-color:#ffff00;  /* eaeaea = very light gray */
+  background-color:#ffff00;  /* pure (or mostly pure) yellow, eaeaea = very light gray */
   height:75px;
   margin:0;
   text-align:left;
   vertical-align:top;
 }
-
 .off-day {
   background-color:#ddd;  /* very light gray */
 }
@@ -67,7 +67,44 @@ ul {
   padding:5px;
   margin:5px 0;
 }
+<!-- added 6-10-25 5:08pm -->
+.container {
+  background-color: #ffffff;  /* white */
+  border: 2px solid #dcdcdc;  /* very light gray */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba
+  (0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a {
+  color: #4169e1;  /* royalblue */
+  text-decoration: none;
+  position: relative;
+  padding-right:50px;  /* 6-23-2025 */
+  font-family: Helvetica, Arial, sans-serif;
+  transition: color 0.3s ease-in-out;
+}
+a::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #990000;  /* crimson */
+  transition: width 0.3s;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+}
+a:hover {
+  color: #990000;  /* crimson */
+}
+a:hover::after {
+  width: 88%;
+}
 
+<!-- World, National & International Days -->
 .cyber-monday {
   background-color:#e8e193;  /* very soft yellow */
 }
