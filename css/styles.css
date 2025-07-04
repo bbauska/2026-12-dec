@@ -1,5 +1,5 @@
-<!-- css/styles.css for 2026-dec.bauska.org -->
-<!-- was: font-family:'Bradley Hand', cursive, 'OCR A Std', monospace, Helvetica; -->
+/* css/styles.css of 2026-12-dec making 2026-dec.bauska.org */
+/* was: font-family:'Bradley Hand', cursive, 'OCR A Std', monospace, Helvetica; */
 body {
   font-family:Helvetica, 'Bradley Hand'; cursive, 'OCR A Std', monospace;
 }
@@ -67,7 +67,6 @@ ul {
   padding:5px;
   margin:5px 0;
 }
-<!-- added 6-10-25 5:08pm -->
 .container {
   background-color: #ffffff;  /* white */
   border: 2px solid #dcdcdc;  /* very light gray */
@@ -104,7 +103,7 @@ a:hover::after {
   width: 88%;
 }
 
-<!-- World, National & International Days -->
+/* World, National & International Days */
 .cyber-monday {
   background-color:#e8e193;  /* very soft yellow */
 }
